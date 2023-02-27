@@ -6,7 +6,7 @@ var buttons = document.querySelectorAll('button');
 function addToScreen(value) {
     var screen = document.getElementById("screen");
 
-    console.log(screen);
+    // console.log(screen);
     screen.value += value;
 }
 
